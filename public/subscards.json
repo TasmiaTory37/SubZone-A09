@@ -1,0 +1,190 @@
+[
+    {
+      "id": 1,
+      "name": "Amazon Prime Video",
+      "thumbnail": "https://i.ibb.co.com/WNMDtTQ1/Prime-Video.png",
+      "frequency": "Monthly",
+      "price": "৳99",
+      "description": "Access to thousands of movies, TV shows, and exclusive Amazon Originals.",
+      "tech_category": "Streaming",
+      "features": [
+        "Unlimited streaming",
+        "Access to exclusive Amazon Originals",
+        "Offline downloads",
+        "Multiple device support"
+      ],
+      "subscription_benefits": [
+        "Free shipping on Amazon orders",
+        "Prime Video Channels",
+        "Amazon Music Prime"
+      ],
+      "ratings": 4.7,
+      "number_of_reviews": 300
+    },
+    {
+      "id": 2,
+      "name": "Netflix",
+      "thumbnail": "https://i.ibb.co.com/pjm4yJ93/Netflix.png",
+      "frequency": "Monthly",
+      "price": "৳300",
+      "description": "Watch a variety of award-winning Netflix original series, movies, documentaries, and more.",
+      "tech_category": "Streaming",
+      "features": [
+        "Unlimited streaming",
+        "Multiple device streaming",
+        "Ad-free",
+        "Offline viewing"
+      ],
+      "subscription_benefits": [
+        "Access to original Netflix shows and movies",
+        "Multiple user profiles",
+        "Ultra HD and HDR support"
+      ],
+      "ratings": 4.9,
+      "number_of_reviews": 550
+    },
+    {
+      "id": 3,
+      "name": "ChatGPT Plus",
+      "thumbnail": "https://i.ibb.co.com/fVX4xnK8/CHATGPT-PLUS.png",
+      "frequency": "Monthly",
+      "price": "৳500",
+      "description": "Access the enhanced capabilities of ChatGPT with faster responses and priority access.",
+      "tech_category": "AI Services",
+      "features": [
+        "Access to GPT-4",
+        "Faster response times",
+        "Priority access to new features"
+      ],
+      "subscription_benefits": [
+        "Enhanced conversational capabilities",
+        "Use for research and content creation",
+        "AI-powered assistant for various tasks"
+      ],
+      "ratings": 4.8,
+      "number_of_reviews": 150
+    },
+    {
+      "id": 4,
+      "name": "YouTube Premium",
+      "thumbnail": "https://i.ibb.co.com/fzjL5mZQ/YTPremium.png",
+      "frequency": "Monthly",
+      "price": "৳200",
+      "description": "Enjoy ad-free videos, offline downloads, and YouTube Music all with one subscription.",
+      "tech_category": "Streaming",
+      "features": [
+        "Ad-free experience",
+        "Offline video downloads",
+        "Access to YouTube Music"
+      ],
+      "subscription_benefits": [
+        "Background play on mobile",
+        "YouTube Originals"
+      ],
+      "ratings": 4.6,
+      "number_of_reviews": 500
+    },
+    {
+      "id": 5,
+      "name": "Spotify",
+      "thumbnail": "https://i.ibb.co.com/bj9fq4S9/Spotify.png",
+      "frequency": "Monthly",
+      "price": "৳300",
+      "description": "Stream your favorite music, podcasts, and discover new artists with Spotify.",
+      "tech_category": "Music Streaming",
+      "features": [
+        "Ad-free music streaming",
+        "Offline music downloads",
+        "Personalized playlists",
+        "High-quality audio"
+      ],
+      "subscription_benefits": [
+        "Access to premium playlists",
+        "Exclusive content for subscribers",
+        "Multiple devices supported"
+      ],
+      "ratings": 4.8,
+      "number_of_reviews": 350
+    },
+    {
+      "id": 6,
+      "name": "Hoichoi",
+      "thumbnail": "https://i.ibb.co.com/NdSxZ0pX/Hoichoi.png",
+      "frequency": "Monthly",
+      "price": "৳150",
+      "description": "Explore the world of Bengali cinema and exclusive Hoichoi original content.",
+      "tech_category": "Streaming",
+      "features": [
+        "Access to Bengali films and series",
+        "Exclusive Hoichoi Originals",
+        "Multiple language support"
+      ],
+      "subscription_benefits": [
+        "Watch on multiple devices",
+        "Ad-free experience"
+      ],
+      "ratings": 4.5,
+      "number_of_reviews": 150
+    },
+    {
+      "id": 7,
+      "name": "Chorki",
+      "thumbnail": "https://i.ibb.co.com/39RH22bV/Chorki.png",
+      "frequency": "Monthly",
+      "price": "৳80",
+      "description": "Enjoy a wide range of Bengali movies, web series, and original content.",
+      "tech_category": "Streaming",
+      "features": [
+        "Exclusive Bengali films and series",
+        "Offline viewing",
+        "Ad-free"
+      ],
+      "subscription_benefits": [
+        "Multiple device streaming",
+        "Family sharing options"
+      ],
+      "ratings": 4.4,
+      "number_of_reviews": 80
+    },
+    {
+      "id": 8,
+      "name": "Canva Pro",
+      "thumbnail": "https://i.ibb.co.com/4wYnNKW5/CanvaPro.png",
+      "frequency": "Monthly",
+      "price": "৳50",
+      "description": "Design anything from social media graphics to presentations with Canva Pro.",
+      "tech_category": "Design",
+      "features": [
+        "Access to premium templates",
+        "Unlimited storage for photos and assets",
+        "Team collaboration tools"
+      ],
+      "subscription_benefits": [
+        "Resize designs effortlessly",
+        "Use custom fonts and logos"
+      ],
+      "ratings": 4.7,
+      "number_of_reviews": 200
+    },
+    {
+      "id": 9,
+      "name": "Zee5",
+      "thumbnail": "https://i.ibb.co.com/S4xfJLpH/ZEE5.png",
+      "frequency": "Monthly",
+      "price": "৳300",
+      "description": "Watch movies, shows, and Zee5 originals with a rich library in multiple languages.",
+      "tech_category": "Streaming",
+      "features": [
+        "Multiple language support",
+        "Original Zee5 content",
+        "Offline downloads"
+      ],
+      "subscription_benefits": [
+        "Exclusive Zee5 Originals",
+        "Watch on multiple devices"
+      ],
+      "ratings": 4.3,
+      "number_of_reviews": 120
+    }
+  ]
+  
