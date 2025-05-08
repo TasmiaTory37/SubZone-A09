@@ -36,7 +36,7 @@ const CardSection = ({ cards }) => {
             </div>
 
             <button
-                        className='bg-blue-600 mx-auto block text-center px-6 py-2 rounded-4xl text-white font-semibold'
+                        className='bg-blue-500 mx-auto block text-center px-6 py-2 rounded-4xl text-white font-semibold'
                         onClick={() => {
                             setViewAll((prev) => !prev);
                            

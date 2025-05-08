@@ -81,7 +81,7 @@ export const router=createBrowserRouter([
         {
           path:'/details/:id',
           element:<PrivateRoute>
-           <Details></Details>,
+           <Details></Details>
           </PrivateRoute>,
           loader:async({params})=>{
 
@@ -95,7 +95,7 @@ export const router=createBrowserRouter([
         {
           path:'/popular-details/:id',
           element:<PrivateRoute>
-           <PopularDetails></PopularDetails>,
+           <PopularDetails></PopularDetails>
           </PrivateRoute>,
           loader:async({params})=>{
 

@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const PrivacyPolicy = () => {
+     useEffect(() => {
+        document.title = "SubZone - Privacy Policy"; 
+      }, []);
   return (
     <div className="max-w-3xl mx-auto p-6">
       <header className="text-center mb-8">

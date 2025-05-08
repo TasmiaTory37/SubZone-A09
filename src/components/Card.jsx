@@ -7,7 +7,7 @@ const Card = ({card}) => {
     const{thumbnail,name,tech_category,price,frequency,id }=card
     return (
         <div className=''>
-            <div className="card bg-base-100 shadow-sm p-5 ">
+            <div className="card bg-base-100 border-blue-100 border-1 shadow-md p-5 ">
                 <figure className=''>
                     <img className='h-[300px] w-full  rounded-xl'
                     src={thumbnail}
@@ -32,7 +32,7 @@ const Card = ({card}) => {
                 </div>
                
                 
-                <NavLink to={`/details/${id}`}><button className='px-4 py-3 bg-blue-300 '>View More</button></NavLink>
+                <NavLink to={`/details/${id}`}><button className='btn bg-blue-300 hover:bg-blue-500 hover:text-white text-black rounded-xl'>View More</button></NavLink>
                  
                   
                   

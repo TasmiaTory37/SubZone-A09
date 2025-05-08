@@ -6,7 +6,7 @@ import { AuthContext } from '../Provider/AuthProvider';
 const PrivetRout = ({children}) => {
   const location = useLocation(); 
   const {user}=useContext(AuthContext);
-  console.log(user)
+//   console.log(user)
   if(user && user?.email) {
    return children;                     
  } 

@@ -14,12 +14,6 @@ const MostPopularSection = ({ cards }) => {
         }
     }, [cards, viewAll]);
 
-    useEffect(() => {
-        if (viewAll) {
-            window.scrollTo(0, 0);
-        }
-    }, [viewAll]); 
-
 
    
  

@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from '../assets/logo.png';
 
 const Contact= () => {
+     useEffect(() => {
+        document.title = "SubZone - Contact"; 
+      }, []);
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
         <h1 className='font-bold text-3xl text-purple-400 mb-5'>For Any Query feel free to Contact With Us</h1>

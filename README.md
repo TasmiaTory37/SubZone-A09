@@ -1,12 +1,39 @@
-# React + Vite
+** Name of the Project: SubZone
+** Purpose of this project :
+The SubZone project is designed to serve as a subscription management platform that centralizes various subscription services into one convenient location. The platform aims to simplify the management of multiple subscriptions, making it easier for users to access and manage services like Netflix, Amazon Prime, Spotify, Canva Pro, and other similar platforms.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Link
+  https://subzone-a-09.web.app
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Key Features
 
-## Expanding the ESLint configuration
+1.Centralized Subscription Dashboard:
+A single interface where users can view, manage, and track all their active subscriptions, including streaming services, productivity tools, and more.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.Subscription Discovery:
+Users can easily discover popular subscription services like Netflix, Amazon Prime Video, Spotify, and Canva Pro, and subscribe directly through the platform.
+
+
+3.User Profiles:
+Users can create profiles, add profile pictures and manage profile.
+
+4.Login and Registration:
+Secure authentication with email/password and social logins (e.g., Google)
+
+5.Responsive Design:
+Fully responsive website for desktop, tablet, and mobile users.
+
+
+
+ **npm packages used
+
+ 1.React-router
+ 2.Tailwind CSS
+ 3.DaisyUI
+ 4.React Icons
+ 4.Firebase
+ 5.swiperjs
+ 6.sweetalerts2
+ 7.react-countup
+ 

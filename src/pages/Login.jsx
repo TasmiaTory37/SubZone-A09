@@ -28,7 +28,7 @@ const Login = () => {
       userLogin(email, password)
         .then((result) => {
           const user = result.user;
-          console.log(user)
+        //   console.log(user)
           setUser(user);
 
           Swal.fire({
@@ -67,7 +67,7 @@ const Login = () => {
        handleGoogle()
        .then((res)=>{
            const user=res.user;
-        console.log(user)
+        // console.log(user)
         setUser(user);    
 
         Swal.fire({

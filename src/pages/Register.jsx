@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { FaGoogle } from 'react-icons/fa';
+import {FaEye, FaEyeSlash, FaGoogle } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvider';
 import Swal from 'sweetalert2';
@@ -12,7 +12,7 @@ const Register = () => {
 
 
 
-
+       const [showPassword,setShowPassword]=useState(false)
     const {createNewUser,setUser,handleGoogle}=useContext(AuthContext)
   const [error,setError]=useState({});
   const navigate=useNavigate();
@@ -55,7 +55,7 @@ const Register = () => {
       .then((result) => {
         const user = result.user;
         setUser(user);
-       console.log(user)
+    //    console.log(user)
            Swal.fire({
                    title: 'Congratulations!',
                    text: 'Registration Successful.',
@@ -96,7 +96,7 @@ const Register = () => {
     handleGoogle ()
     .then((res)=>{
       const user=res.user;
-      console.log(user)
+    //   console.log(user)
       setUser(user); 
 
        Swal.fire({
@@ -125,6 +125,9 @@ const Register = () => {
     })                 
   }
 
+
+
+
     return (
         <div>
             <div className='flex justify-center items-center min-h-screen'>  
@@ -146,15 +149,24 @@ const Register = () => {
                        
             
                   
-                        <label className="text-base">Password</label>
-                     
-                      <input type='password' name='pass' 
-                      placeholder="Password" 
-                      className="input" required />
+            
+            <label className="text-base fieldset">Password</label>
+         
+          <input type={showPassword ? 'text' : 'password'} name='pass' 
+          placeholder="Password" 
+          className="input" required />
+          {/* eys */}
+          <button
+       onClick={()=>setShowPassword(!showPassword)}
+       className='btn btn-xs absolute right-12 bottom-52'>
+        {
+          showPassword ?<FaEye></FaEye> :<FaEyeSlash></FaEyeSlash>
+        }
+        </button>
                   
             
                         
-                        <button className="btn btn-neutral mt-4">Login</button>
+                        <button className="btn btn-neutral mt-4">Register</button>
             
             
                       

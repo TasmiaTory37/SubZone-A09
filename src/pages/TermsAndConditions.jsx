@@ -1,6 +1,11 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
 const TermsAndConditions = () => {
+
+     useEffect(() => {
+        document.title = "SubZone - Terms & Conditions"; 
+      }, []);
+    
+    
   return (
     <div className="max-w-3xl mx-auto p-6">
       <header className="text-center mb-8">

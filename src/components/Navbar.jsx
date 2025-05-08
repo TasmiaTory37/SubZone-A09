@@ -93,11 +93,11 @@ const Navbar = () => {
                     </div>
                 </label>
                 {user && user?.email ? (
-          <button onClick={logOut} className="btn ">
-            Log-Out
+          <button onClick={logOut} className="btn bg-blue-300 hover:bg-blue-500 hover:text-white text-black ">
+            LogOut
           </button>
         ) : (
-          <Link to="/auth/register" className="btn btn-neutral rounded-none">
+          <Link to="/auth/register" className="btn bg-blue-300 hover:bg-blue-500 hover:text-white text-black rounded-none">
             Login
           </Link>
         )}

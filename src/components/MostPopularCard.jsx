@@ -7,7 +7,7 @@ const MostPopularCard = ({card}) => {
     const{thumbnail,name,tech_category,ratings,number_of_reviews,description,id }=card
     return (
         <div className=''>
-            <div className="card bg-base-100 shadow-sm p-5 ">
+            <div className="card bg-base-100 border-1 border-blue-100 shadow-sm p-5 ">
                 <figure className=''>
                     <img className='h-[300px] w-full  rounded-xl'
                     src={thumbnail}

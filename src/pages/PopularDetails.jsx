@@ -43,8 +43,7 @@ const PopularDetails = () => {
         </div>
       </div>
 
-    
-      <Footer />
+<Footer /> 
     </div>
   );
 };
