@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
 import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
@@ -10,6 +11,10 @@ import s3 from '../assets/s3.png'
 import s4 from '../assets/s4.png'
 import s5 from '../assets/s5.jpg'
 import s6 from '../assets/s6.jpg'
+
+
+
+
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 
 const Banner = () => {

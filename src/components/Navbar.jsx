@@ -1,10 +1,13 @@
-
+import React, { useContext, } from 'react';
 import { NavLink,Link } from 'react-router'
 import logo from '../assets/logo.png'
-
+import { AuthContext } from '../Provider/AuthProvider';
 
 const Navbar = () => {
-
+  const {user,logOut,loading}=useContext(AuthContext); 
+  if (loading) {
+    return <span className="loading loading-dots loading-xl flex justify-between items-center mx-auto"></span>;  // You can replace this with a spinner or skeleton loader
+  }
 
 
     return (
@@ -30,10 +33,15 @@ const Navbar = () => {
                     <NavLink className={({isActive})=>isActive? 'text-indigo-500' : ''}  to='/faq'>FAQ</NavLink>
                     </li>
                     <li>
-                    <NavLink className={({isActive})=>isActive? 'text-indigo-500' : ''}  to='/contact'>Contact</NavLink> /</li>
+                    <NavLink className={({isActive})=>isActive? 'text-indigo-500' : ''}  to='/contact'>Contact</NavLink>
                    
                     
-                    
+                    </li>
+                    {user && (
+                    <li>
+                        <NavLink className={({isActive})=>isActive? 'text-indigo-500' : ''} to="/my-profile">My Profile</NavLink>
+                    </li>
+                    )}
                 </ul>
                 </div>
                 <div className='flex items-center gap-2'>
@@ -60,22 +68,44 @@ const Navbar = () => {
                     
                     
                     </li>
-                    
+                    {user && (
+                    <li>
+                        <NavLink className={({isActive})=>isActive? 'text-indigo-500' : ''} to="/my-profile">My Profile</NavLink>
+                    </li>
+                    )}
     </ul>
   </div>
   <div className="navbar-end gap-2">
   
   <label tabIndex={0} className="relative group btn btn-ghost btn-circle avatar">
-                   <button className='btn'>Login</button>
+                    <div className="w-10 rounded-full">
                        
-               
-        
-            </label>
+                        {user && user?.email ? (
+            <div>
+              <img className="w-10 rounded-full" src={user?.photoURL} alt="" />
+              <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 bg-black text-white text-xs rounded px-2 py-1 shadow hidden group-hover:block">
+                  {user.displayName || 'Anonymous User'}
+                </div>
+            </div>
+          ) : (
+            ""
+          )}
+                    </div>
+                </label>
+                {user && user?.email ? (
+          <button onClick={logOut} className="btn ">
+            Log-Out
+          </button>
+        ) : (
+          <Link to="/auth/register" className="btn btn-neutral rounded-none">
+            Login
+          </Link>
+        )}
+            </div>
             
         </div>
         </div>
-        </div >  
-         );
+    );
 };
 
 export default Navbar;
