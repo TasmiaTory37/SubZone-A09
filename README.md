@@ -60,7 +60,7 @@ Fully responsive website for desktop, tablet, and mobile users.
 # How to use
 
 ## Clone the repository
-git clone https://github.com/yourusername/subzone.git
+git clone https://github.com/TasmiaTory37/SubZone-A09.git
 
 cd subzone
 
