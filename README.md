@@ -1,6 +1,8 @@
 # Name of the Project : SubZone
 
 
+![SubZone Banner](./src/assets/Screenshot%202025-06-25%20033150.png)
+
 # Purpose of this project :
 The SubZone project is designed to serve as a subscription management platform that centralizes various subscription services into one convenient location. The platform aims to simplify the management of multiple subscriptions, making it easier for users to access and manage services like Netflix, Amazon Prime, Spotify, Canva Pro, and other similar platforms.
 
